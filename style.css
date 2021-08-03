@@ -1,0 +1,160 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+  }
+  nav {
+   background-color: #4267B2;
+   font-family: 'Poppins';
+  }
+  nav {
+   padding: 20px 40px;
+  }
+  nav .row {
+   display: flex;
+  }
+  nav .col {
+   flex: 50%;
+   color: #fff;
+  }
+  nav img {
+   width: 120px;
+  }
+  nav h1 {
+   font-size: 40px;
+   margin-left: 120px;
+   margin-top: -125px;
+  }
+  nav .example {
+   float: right;
+  }
+ form {
+  margin-top: 40px;
+ }
+ form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  outline: none;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #f1f1f1;
+  color: grey;
+  font-size: 17px;
+  border: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-left: none;
+  cursor: pointer;
+}
+nav a {
+
+ font-size: 30px;
+ color: #fff;
+ text-decoration: none;
+ font-weight: bold;
+ position: relative;
+ top: 35px;
+ margin-left: 450px;
+}
+.nav ul {
+ list-style: none;
+ margin-top: 30px;
+}
+.nav li {
+ display: inline;
+ margin: 0 20px;
+}
+.nav a {
+ font-size: 25px;
+ font-family: 'Poppins';
+ font-weight: bold;
+ color: #4267B2;
+ text-decoration: none;
+}
+
+.wrap form.example input[type=text] {
+ background-color: #fff;
+ color: #000;
+ border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 20px;
+}
+.wrap form.example button {
+ background-color: #fff;
+ border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.cont .row {
+ display: flex;
+}
+.cont .col1 {
+ flex: 40%;
+ margin: 20px;
+}
+.cont .col2 {
+ flex: 60%;
+ text-align: center;
+ padding: 20px;
+ margin: 20px;
+}
+.cont .col2 div {
+ background-color: #F2F3F4;
+ width: 1000px;
+}
+.cont .col2 div img {
+ width: 100%;
+}
+.cont .col1 {
+ padding: 20px;
+}
+
+.cont .col1 .wrap {
+ background-color: #F2F3F4;
+
+ padding: 20px;
+ padding-top: 1px !important;
+}
+
+.cont .col1 .wrap p {
+ font-size: 20px;
+ font-family: 'Poppins';
+ color: #4267B2;
+}
+.innerRow {
+ display: flex;
+ height: 500px;
+}
+.wrap {
+ flex: 95%;
+}
+.ul {
+ flex: 5%;
+ background-color: #F2F3F4;
+ margin-left: 30px;
+}
+.ul img {
+ width: 100px;
+}
+
+.conttt {
+ color: #4267B2;
+ font-family: 'Poppins';
+ margin-left: 40px;
+ margin-top: -340px;
+ margin-bottom: 50px;
+}
+.conttt img {
+ transform: translateY(10px);
+ width: 50px;
+}
